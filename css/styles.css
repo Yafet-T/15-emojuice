@@ -1,0 +1,26 @@
+
+
+body {
+margin:auto;
+background-color: #7DB96F;
+}
+
+main {
+  padding: 0px 34px 0px 34px;
+}
+
+header {
+  background-image: url(/img/plan-de-travaille-avec-fruit.webp);
+  margin-top: 8px;
+}
+
+.header-emojuice {
+ margin: 0px 28px 28px 28px;
+ padding: 0px 34px 12px 34px;
+ background-color: rgba(255, 255, 255, 0.884);;
+ text-align: center;
+ font-family: 'Quattrocento', serif;
+ font-size: 20pt;
+ font-weight:400;
+ color: #7DB96F;
+}

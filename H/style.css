@@ -1,0 +1,129 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 320px;
+  margin: auto;
+  padding: 19px;
+  background-color: rgb(0, 0, 0);
+}
+
+.site-header {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding: 30px 0px 34px 31px;
+  width: 100%;
+  margin-bottom: 20px;
+  width: 88%;
+  background-image: url(../img/img-code-sur-ecrant.jpg);
+  border: solid 2px white;
+}
+
+.site-header h1 {
+  color: white;
+  margin-top: 23px;
+  font-size: 26px;
+}
+
+em {
+  font-family:  'Montserrat', sans-serif;
+  color: #03ffbc;
+}
+
+.site-header p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.card {
+  background-color: #00fca6;
+  padding: 12px 35px 30px 31px;
+}
+
+.card h3 {
+  font-family:  'Montserrat', sans-serif;
+  color: #0f5b40;
+  font-size: 16px;
+}
+
+.card p {
+  font-family: 'Open Sans', sans-serif;
+  color: #0f5b40;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+article {
+  background-color: white;
+  margin-top: 23px;
+  padding: 31px 30px 30px 30px;
+}
+
+h1 {
+  font-family:  'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  margin: 0  0 19px 0;
+}
+
+.post-info {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #bdbdbd;
+}
+
+.author {
+  color: #26fca9;
+}
+
+span {
+  color: black;
+}
+
+div {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+
+img {
+   width: 100%;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+  box-shadow: 0px 0px 6px  #00000033;
+  margin-bottom: 35px;
+}
+
+figcaption {
+  padding: 5px 21px 6px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #000000;
+  margin-top: 0px;
+}
+
+a {
+  color: white;
+  font-family:  'Montserrat', sans-serif;
+  font-size: 10px;
+  background-color: #444444;
+  border: 1px solid #383838;
+  text-decoration: none;
+
+  padding: 5px 15px;
+}
+
+footer p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  border: 2px solid #03ffbc;
+  box-shadow: 0px 0px 6px  #03ffbc33;
+  padding: 15px 10px 15px 94px;
+  margin-top: 20px;
+}
