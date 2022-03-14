@@ -5,18 +5,14 @@ margin:auto;
 background-color: #7DB96F;
 }
 
-main {
-  padding: 0px 34px 0px 34px;
-}
-
 header {
-  background-image: url(/img/plan-de-travaille-avec-fruit.webp);
+  background-image: url(../img/plan-de-travaille-avec-fruit.webp);
   margin-top: 8px;
   padding: 1px;
 }
 
-.carte-emojuice {
- margin: 28px 30px 30px 34px;
+header div{
+ margin: 28px 30px 26px 34px;
  padding: 28px 38px 28px 38px;
  background-color: rgba(255, 255, 255, 0.884);;
  text-align: center;
@@ -26,13 +22,97 @@ header {
  color: #7DB96F;
 }
 
-.liens-produits {
-  font-family: 'Maven Pro', sans-serif;
-  text-decoration: none;
-  color: #7DB96F;
+header nav {
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
-.encre-contact {
+.link-header {
+  font-family: 'Maven Pro', sans-serif;
   text-decoration: none;
+  color: #ffffff;
+  background-color: #7DB96F;
+  padding: 15px 20px;
+  border-radius: 12px;
+  margin: 10px 66px 18px 69px;
+}
+
+.link-header-light {
+  font-family: 'Maven Pro', sans-serif;
+  text-decoration: none;
+  color: #7DB96F;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  margin: 10px 104px 44px 104px;
+
+}
+
+.card {
+  background-color: white;
+  padding: 96px 65px 96px 65px ;
+}
+
+.card h2{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin: 0;
+}
+
+.card p {
+  font-family: 'Quattrocento', serif;
+  text-align: center;
+}
+
+.icon-fruit-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon-fruit-bar img{
+  width: 11%;
+}
+
+.card-article h2 {
+  padding: 47px 0 34px 0;
+  text-align: center;
+  color: #FCF7D6;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 26px;
+  margin: 0px;
+}
+
+.article {
+  background-color: #FCF7D6;
+  margin: 0 30px 44px 30px;
+  border-radius: 11px;
+  padding: 38px 38px  30px 37px;
+}
+
+.article h3 {
+  font-family: 'Sriracha', cursive; 
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0px;
+}
+
+.article img {
+  width: 30%;
+  float: right;
+  margin-top: 20px;
+}
+
+.article a{
+  color: black;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.article p {
+  margin:  0px 0px 54px 0px;
 }
