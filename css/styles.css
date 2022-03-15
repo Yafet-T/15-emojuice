@@ -2,7 +2,7 @@
 
 body {
 margin:auto;
-background-color: #7DB96F;
+background-color: #58BA6B;
 }
 
 header {
@@ -19,7 +19,7 @@ header div{
  font-family: 'Quattrocento', serif;
  font-size: 20pt;
  font-weight:400;
- color: #7DB96F;
+ color: #58BA6B;
 }
 
 header nav {
@@ -32,7 +32,7 @@ header nav {
   font-family: 'Maven Pro', sans-serif;
   text-decoration: none;
   color: #ffffff;
-  background-color: #7DB96F;
+  background-color: #58BA6B;
   padding: 15px 20px;
   border-radius: 12px;
   margin: 10px 66px 18px 69px;
@@ -41,7 +41,7 @@ header nav {
 .link-header-light {
   font-family: 'Maven Pro', sans-serif;
   text-decoration: none;
-  color: #7DB96F;
+  color: #58BA6B;
   background-color: #ffffff;
   padding: 15px 20px;
   border-radius: 12px;
@@ -80,39 +80,115 @@ header nav {
 .card-article h2 {
   padding: 47px 0 34px 0;
   text-align: center;
-  color: #FCF7D6;
+  color: #ffffff;
   font-family: 'Maven Pro', sans-serif;
   font-size: 26px;
   margin: 0px;
 }
 
 .article {
-  background-color: #FCF7D6;
   margin: 0 30px 44px 30px;
-  border-radius: 11px;
+  border-radius: 20px;
   padding: 38px 38px  30px 37px;
 }
 
-.article h3 {
+.article {
+  box-shadow: 1px -1px 16px -7px black;
+}
+
+.card-article img {
+  width: 30%;
+  float: right;
+  margin-top: 20px;
+}
+
+.card-article h3 {
   font-family: 'Sriracha', cursive; 
   font-size: 30px;
   font-weight: normal;
   margin: 0px;
 }
 
-.article img {
-  width: 30%;
-  float: right;
-  margin-top: 20px;
+.card-article p {
+  margin:  0px 0px 54px 0px;
+  font-family: 'Quattrocento', serif;
 }
 
-.article a{
+.card-article a{
   color: black;
   font-family: 'Maven Pro', sans-serif;
   font-weight: bold;
   font-size: 14px;
 }
 
-.article p {
-  margin:  0px 0px 54px 0px;
+.banane {
+  background-color: #FEF8D5;
 }
+
+.banane p {
+  color: #807D6C;
+}
+
+.kiwi {
+  background-color: #C4F1AC;
+}
+
+.kiwi p {
+  color: #627954;
+}
+
+.cafe {
+  background-color: #D3C6B3;
+}
+
+.cafe p {
+  color: #897F74;  
+}
+
+.fraise {
+  background-color: #F6A5B4;
+}
+
+.fraise p {
+  color: #956470;  
+}
+
+footer {
+  background-color: white;
+  padding: 42px 0px 45px 0px ;
+}
+
+footer h1 {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  color: #58BA6B;
+  text-align: center;
+  font-size: 26px;
+}
+
+.link-footer {
+  font-family: 'Maven Pro', sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #58BA6B;
+  padding: 15px 20px;
+  border-radius: 12px;
+  margin: 13px 66px 18px 69px;
+}
+
+footer nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+footer p {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  margin: 60px 65px 40px 65px;
+  color: #58BA6B;
+}
+
+
+
