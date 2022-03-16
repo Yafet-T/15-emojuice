@@ -20,19 +20,21 @@
     </header>
 
     <main>
-      <div>
+      <div class="header-kiwi">
         <h2>Sirop kiwi</h2>
-        <p>En vert et contre tous</p>
-        <img src="./img/kiwi.svg" alt="kiwi icon">
-      </div>
-      <article>
+        <p>En vert et contre tous.</p>
+        <div class="vignette-container">
+          <img src="./img/kiwi.svg" alt="kiwi icon">
+        </div>
+        </div>
+      <article class="kiwi-article">
         <h1>Le kiwi</h1>
-        <figcaption>
+        <p>
           Un seul kiwi renferme une quantité impressionnante de fibre. 
           Grâce aux antioxydants qu'il contient, le consommer régulièrement 
           préviendrait l'apparition de maladies cardiovasculaires et de certains
           cancers.
-        </figcaption>
+        </p>
         <figure>
           <img src="./img/kiwi.webp" alt="plant de travaille avec des kiwi">
         </figure>
@@ -45,21 +47,42 @@
           <li>Fibres alimentaires: 2,4g</li>
         </ul>
       </article>
-      <div class="card-article-kiwi">
-        <h2>Nos autres produits</h2>
-        <article class="fraise">
-          <h3>Délices à la fraise</h3>
-          <img src="./img/fraise.svg" alt="fraise-icon">
-          <p>+</p>
-        </article>
-        <article>
-          <h3>Glace au café</h3>
-          <img src="./img/tasse-cafe.svg" alt="café-icon">
-          <p>+</p>
-        </article>
+      <div class="autres-produits">
+        <h1>Nos autres produits</h1>
+        <div class="mini-card">
+          <article class="fraise">
+            <h2>Délices à la fraise</h2>
+            <img src="./img/fraise.svg" alt="fraise-icon">
+            <p>+</p>
+          </article>
+          <article class="cafe">
+            <h2>Glace au café</h2>
+            <img src="./img/tasse-cafe.svg" alt="café-icon">
+            <p>+</p>
+          </article>
+        </div>
         <a href="kiwi.html">Accédez à nos produits</a>
       </div>
+    
     </main>
+    <footer>
+      <h1 id="contact">Nous contacter</h1>
+      <nav>
+        <a href="mailto:emojuice@veggies.ch" class="link-footer">
+        emojuice@veggies.ch</a>
+        <a href="https://www.instagram.com/?hl=fr" target="blank" 
+        class="link-footer">Instagram</a>
+        <a href="https://fr-fr.facebook.com/" class="link-footer">Facebook</a>
+      </nav>
+        <p>Emojuice est une marque déposée par Veggies inc. Switzerland</p>
+      <div class="icon-fruit-bar">
+        <img src="./img/banane-cote-droit.svg" alt="banane-icon">
+        <img src="./img/kiwi.svg" alt="kiwi-icon">
+        <img src="./img/pomme.svg" alt="pomme-icon">
+        <img src="./img/ananas.svg" alt="ananas-icon">
+      </div>
+    </div>
 
+    </footer>
   </body>
 </html>
