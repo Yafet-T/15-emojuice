@@ -49,6 +49,16 @@ header nav {
 
 }
 
+.link-header:hover {
+  background-color: #ffffff;
+  color: #58BA6B;
+}
+
+.link-header-light:hover {
+  background-color: #58BA6B;
+  color: #ffffff;
+}
+
 .card {
   background-color: white;
   padding: 96px 65px 96px 65px ;
@@ -74,7 +84,7 @@ header nav {
 }
 
 .icon-fruit-bar img{
-  width: 11%;
+  width: 27px;
 }
 
 .card-article h2 {
@@ -97,7 +107,7 @@ header nav {
 }
 
 .card-article img {
-  width: 30%;
+  width: 80px;
   float: right;
   margin-top: 20px;
 }
@@ -173,13 +183,18 @@ footer h1 {
   background-color: #58BA6B;
   padding: 15px 20px;
   border-radius: 12px;
-  margin: 13px 66px 18px 69px;
+  margin: 8px 0;
 }
 
 footer nav {
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: space-around;
+}
+
+nav {
+  align-items: center;
 }
 
 footer p {
@@ -190,5 +205,8 @@ footer p {
   color: #58BA6B;
 }
 
+footer .icon-fruit-bar {
+  padding: 0px 65px 0px 65px;
+}
 
 
