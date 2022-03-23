@@ -25,12 +25,6 @@ header div{
  color: #58BA6B;
 }
 
-header nav {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
 .link-header {
   font-family: 'Maven Pro', sans-serif;
   text-decoration: none;
@@ -194,11 +188,13 @@ footer h1 {
   margin: 8px 0;
 }
 
-footer nav {
+.buttons-container {
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
 }
 
 nav {
@@ -217,8 +213,14 @@ footer .icon-fruit-bar {
   padding: 0px 65px 0px 65px;
 }
 
+.autres-produits{
+  padding-top: 40px;
+
+}
+
 .header-kiwi {
   background-color: #C4F1AC;
+  padding-bottom: 50px;
 }
 
 .header-kiwi h2 {
@@ -242,7 +244,7 @@ footer .icon-fruit-bar {
   padding: 50px;
   background-color: white;
   border-radius: 50%;
-  margin: 0 90px 90px;
+  margin: 0 90px 10px;
   width: 100px;
 }
 
@@ -290,10 +292,10 @@ ul li {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 0 25px;
 }
 
 .mini-card img{
-  float: right;
   width: 55px;
 }
 
@@ -306,10 +308,11 @@ ul li {
   font-family: 'Maven Pro', sans-serif;
   font-weight: bold;
   font-size: 26px;
-  margin: 0 0 10px 38px;
+  text-align: center;
+  margin: 0 0 25px 0;
 }
 
-.fraise {
+.card-fraise {
   background-color: #E2A2B1;
   width: 151px;
   width: 151px;
@@ -317,34 +320,52 @@ ul li {
   border-radius: 20px;
 }
 
-.fraise h2 {
+.card-fraise h2 {
   font-family: 'Sriracha', cursive; 
   font-size: 20px;
-  font-weight: 400;
-  padding: 16px 15px;
+  padding: 10px 15px;
+  margin: 0;
 }
 
-.fraise p {
+.card-fraise p {
   font-family: 'Maven Pro', sans-serif;
   font-size: 38px;
   margin: 0;
 }
 
-.cafe {
+.card-cafe {
   height: 153px;
   border-radius: 20px;
   width: 151px;
   background-color: #CDC4B0;
 }
 
-.cafe h2 {
+.card-cafe h2 {
   font-family: 'Sriracha', cursive; 
   font-size: 20px;
   font-weight: 400;
+  padding: 25px 15px;
+  margin: 0;
 }
 
-.cafe p {
+.card-cafe p {
   font-family: 'Maven Pro', sans-serif;
   font-size: 38px;
   margin: 0;
+}
+
+.link-produits {
+font-family: 'Maven Pro', sans-serif;
+text-decoration: none;
+color: #ffffff;
+background-color: #58BA6B;
+padding: 15px 20px;
+border-radius: 12px;
+display: inline-block;
+}
+
+.container-fruit{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
 }
