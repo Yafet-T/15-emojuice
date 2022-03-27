@@ -98,9 +98,6 @@ header div {
   margin: 0 30px 44px 30px;
   border-radius: 20px;
   padding: 38px 38px  30px 37px;
-}
-
-.article {
   box-shadow: 1px -1px 16px -7px black;
 }
 
@@ -251,7 +248,6 @@ footer .icon-fruit-bar {
   color:white;
   background-color: #58BA6B;
   padding: 60px 67px 60px 67px;
-  
 }
 
 .kiwi-article h1 {
@@ -300,7 +296,6 @@ ul li {
 
 .autres-produits {
   background-color: #C4F1AC;
-
 }
 
 .autres-produits h1 {
@@ -368,4 +363,8 @@ justify-content: center;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
+}
+
+.autres-produits .link-produits{
+  margin: 40px 10px 40px 90px;
 }
